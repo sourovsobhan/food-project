@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+/*----------------------navbar start----------------------*/
+.navbar {
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  padding: 30px 0px;
+  background: black;
+}
+
+.navbar .logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0px 80px;
+  margin: auto;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+.navbar .menu li a:hover {
+  color: crimson;
+}
+/*--------------------------navbar end-------------------------*/
+
+/*--------------diet section start---------------*/
+
+section.diet-section {
+  display: flex;
+  padding-bottom: 150px;
+}
+h1 {
+  font-size: 67px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+}
+.diet-side {
+  width: 40%;
+  padding-left: 9%;
+}
+.diet-side img {
+  width: 60%;
+}
+.orange-color {
+  color: orange;
+}
+.diet-side p {
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+a.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 30px;
+  text-transform: uppercase;
+  border-radius: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+/*--------------diet section end--------------*/
+
+/*--------------About me--------------*/
+
+#about-me {
+  background: linear-gradient(pink, #e66c81);
+  height: 30rem;
+  padding: 50px;
+  background-image: url(images/7.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
