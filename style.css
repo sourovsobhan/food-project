@@ -172,3 +172,17 @@ form input {
   border-radius: 5px;
 }
 /*-----------------contact section  end---------------------*/
+footer {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+footer h1 {
+  color: #fff;
+}
+footer p {
+  color: #fff;
+}
