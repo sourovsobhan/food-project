@@ -73,7 +73,6 @@ h1 {
   font-size: 20px;
   line-height: 30px;
 }
-
 a.link-button {
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
@@ -118,7 +117,6 @@ a.link-button {
   display: flex;
   width: 100%;
 }
-
 .recipe-sigle-box {
   width: 29%;
   height: 60vh;
@@ -129,7 +127,6 @@ a.link-button {
   border-radius: 43px;
   margin-right: 30px;
 }
-
 .recipe-sigle-box img {
   width: 100%;
   height: 250px;
@@ -138,3 +135,40 @@ a.link-button {
   width: 300px;
 }
 /*-------------- recipe section end-----------*/
+
+/*-----------------------contact section ---------------------------------*/
+
+section.contact {
+  /* background: #2aceff;*/
+  margin-top: 40px;
+  background: linear-gradient(pink, #f1f1f1);
+}
+.form {
+  background: white;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.main-content {
+  display: flex;
+  width: 1010px;
+  margin: auto;
+  padding: 60px;
+}
+.form h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+form input {
+  width: 365px;
+  padding: 9px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.form textarea {
+  padding: 15px;
+  margin-left: 19px;
+  width: 357px;
+  border-radius: 5px;
+}
+/*-----------------contact section  end---------------------*/
